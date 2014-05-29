@@ -40,13 +40,27 @@
     &:hover
       text-decoration: underline
 
+@media all and (max-width: 700px)
+  .ad
+    padding: 1rem 2rem
+
+    &:before
+      left: 1rem
+
+    &:after
+      right: 1rem
+
+@media all and (max-width: 600px)
+  .ad
+    padding: 1rem 2.5rem
+
 @media all and (max-width: 320px)
   .ad
     font-size: 70%
     padding: 1rem 1.5rem
-    
+
     &:before
-      left: 0.7rem
+      left: 0.5rem
 
     &:after
-      right: 0.7rem
+      right: 0.5rem
