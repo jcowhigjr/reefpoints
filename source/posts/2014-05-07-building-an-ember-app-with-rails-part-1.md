@@ -82,7 +82,7 @@ on your machine omit `-d postgresql`
 Now the ember project:
 
 ```bash
-ember new bostonember
+ember create bostonember
 mv bostonember ember
 ```
 
